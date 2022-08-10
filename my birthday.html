@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+        }
+
+        .image {
+            text-align: center;
+            display: block;
+            width: 80%;
+            height: 80%;
+            margin: 20px 0 0 150px;
+        }
+
+        .overlay {
+            margin: 20px 0 0 150px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80%;
+            width: 80%;
+            opacity: 0;
+            transition: 5s ease;
+            background-color: #008CBA;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: black;
+            font-size: 50px;
+            font-weight: 100;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .textbtn {
+            margin: 700px 0 0 540px;
+            padding: 20px 40px;
+            
+        }
+    </style>
+</head>
+<body style="background:lightblue">
+
+    <center>
+        <h1>My Birthday :</h1>
+       
+    </center>
+
+    <div class="container">
+        <img src="https://www.mexatk.com/wp-content/uploads/2021/12/%D8%B5%D9%88%D8%B1-%D8%B9%D9%8A%D8%AF-%D9%85%D9%8A%D9%84%D8%A7%D8%AF-%D8%B3%D8%B9%D9%8A%D8%AF-%D8%B1%D9%85%D8%B2%D9%8A%D8%A7%D8%AA-%D8%A7%D8%B9%D9%8A%D8%A7%D8%AF-%D9%85%D9%8A%D9%84%D8%A7%D8%AF-2-654x800.jpg" alt="birthday" class="image">
+        <div class="overlay">
+            <textarea class="text"></textarea>
+            <a href="thank you.html"> <button class="textbtn">submit</button> </a>
+        </div>
+    </div>
+
+
+</body>
+</html>
